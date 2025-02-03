@@ -11,9 +11,12 @@ int main() {
     scanf("%lf %lf", &a, &b);
 
     switch (op) {
-        case '+': printf("Result: %.2lf\n", a + b); break;
-        case '-': printf("Result: %.2lf\n", a - b); break;
-        case '*': printf("Result: %.2lf\n", a * b); break;
+        case '+': printf("Result: %.2lf\n", a + b); 
+            break;
+        case '-': printf("Result: %.2lf\n", a - b); 
+            break;
+        case '*': printf("Result: %.2lf\n", a * b); 
+            break;
         case '/': 
             if (b != 0)
                 printf("Result: %.2lf\n", a / b);
